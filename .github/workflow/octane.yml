@@ -23,14 +23,14 @@ jobs:
         # Config parameters for the integration
         with:
           # ALM Octane connection data
-          octaneUrl: 'http://myOctaneUrl.com'
+          octaneUrl: 'https://almoctane-ams.saas.microfocus.com'
           octaneSharedSpace: 1001
-          octaneWorkspace: 1002
+          octaneWorkspace: 2001
           octaneClientId: ${{secrets.ALM_OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.ALM_OCTANE_CLIENT_SECRET}}
           # Automatically provided GitHub token
           githubToken: ${{secrets.GITHUB_TOKEN}}
           # The url that the CI Server in ALM Octane will point to
-          serverBaseUrl: https://github.com/MyUser/MyCustomRepository
+          serverBaseUrl: https://github.com/amithmahi/OctaneIntegration
           # Pattern for identifying JUnit style report files for test result injection in ALM Octane
           unitTestResultsGlobPattern: "**/*.xml"
