@@ -1,4 +1,4 @@
-# alm-octane-github-actions-integration
+# alm-octane-github-actions-integrations
 Custom GitHub action which facilitates communication between GitHub and ALM Octane/ValueEdge regarding CI/CD.
 
 &nbsp;[Requirements](#Requirements)
